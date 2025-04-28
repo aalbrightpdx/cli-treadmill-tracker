@@ -2,26 +2,47 @@
 
 A simple and friendly Python command-line app to track your treadmill sessions.
 
-Log your:
-- Date
-- Weight (in pounds)
-- Duration (minutes:seconds)
-- Distance (miles)
-- Front incline raise (inches)
+## Log your:
+
+    Date
+    Weight (in pounds, decimal allowed, e.g., 180.0)
+    Duration (minutes:seconds, e.g., 30:15)
+    Distance (miles, decimal allowed, e.g., 1.25)
+    Front incline raise (inches, decimal allowed, e.g., 3.0)
 
 It saves each session to a CSV file and shows helpful summaries and trends!
+
+## How to Clone
+
+To download and start using this project:
+
+```bash
+git clone git@github.com:aalbrightpdx/cli-treadmill-tracker.git
+cd cli-treadmill-tracker
+```
+
+If you prefer HTTPS instead of SSH:
+
+```bash
+git clone https://github.com/aalbrightpdx/cli-treadmill-tracker.git
+cd cli-treadmill-tracker
+```
 
 ## Usage
 
 Run it like this:
 
 ```bash
+chmod +x treamill.py
+
 python3 treadmill.py
 ```
 
-##To view past sessions:
+## To view past sessions and trends:
 
-
+```bash
+python3 treadmill.py records
+```
 
 ## Notes
 
