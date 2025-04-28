@@ -4,11 +4,11 @@ A simple and friendly Python command-line app to track your treadmill sessions.
 
 ## Log your:
 
-    Date
-    Weight (in pounds, decimal allowed, e.g., 180.0)
-    Duration (minutes:seconds, e.g., 30:15)
-    Distance (miles, decimal allowed, e.g., 1.25)
-    Front incline raise (inches, decimal allowed, e.g., 3.0)
+🔹Date
+🔹Weight (in pounds, decimal allowed, e.g., 180.0)
+🔹Duration (minutes:seconds, e.g., 30:15)
+🔹Distance (miles, decimal allowed, e.g., 1.25)
+🔹Front incline raise (inches, decimal allowed, e.g., 3.0)
 
 It saves each session to a CSV file and shows helpful summaries and trends!
 
