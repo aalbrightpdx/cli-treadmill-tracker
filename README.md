@@ -35,6 +35,10 @@ Run it like this:
 ```bash
 chmod +x treamill.py
 
+./treadmill.py
+
+or
+
 python3 treadmill.py
 ```
 
